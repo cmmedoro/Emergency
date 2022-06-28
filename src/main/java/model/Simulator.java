@@ -100,7 +100,7 @@ public class Simulator {
 			break;
 		case FREE_STUDIO:
 			//controllo che studio sia veramente libero per risolvere il caso in cui studio è vuoto, ma in quell'istante è uscito un paziente
-			//percui free studio schedulato ma non ancora eseguito
+			//per cui free studio schedulato ma non ancora eseguito
 			if(this.freeStudios == 0) {
 				return;
 			}
